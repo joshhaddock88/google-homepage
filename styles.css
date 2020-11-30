@@ -2,14 +2,111 @@ html {
     font-size: 15px;
     margin: auto;
     text-align: center;
+    height: 100%;
+    position: relative;
 
 }
+
 body {
     font-family: arial, sans-serif;
+ /*   display: block;
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;*/
 }
-.left-side {
+
+main {
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(0,0,0,0.75);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+   margin: 16px;
+   padding: 20px; 
+}
+
+.header-left {
     text-align: left;
+    /*margin: 16px;
+    margin-left: 20px;
+    padding: 20px;*/
 }
-.right-side {
+
+.header-right {
     text-align: right;
+    /*margin: 16px;
+    margin-right: 20px;
+    padding: 20px;*/
+}
+
+#logo {
+    width: 425px;
+    margin-top: 55px;
+}
+
+#google-search-bar {
+    width: 775px;
+    padding: 21px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-radius: 30px;
+    margin-top: 0;
+    outline: none;
+}
+
+#google-search-bar:hover {
+    box-shadow: 1px 1px 5px rgba(63,63,63,0.15), -1px -1px 3px rgba(63, 63, 63, 0.15);
+}
+
+button {
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: #3c4043;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: rgba(243, 243, 243, 0.801);
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25), -1px -1px 1px rgba(0,0,0,0.25);
+}
+
+#google-menu-icon {
+    width: 1%;
+    opacity: 65%;
+}
+
+#google-menu-icon:hover {
+    opacity: 100%;
+}
+
+#gmail-profile {
+    width: 2%;
+    border-radius: 50%;
+}
+
+#footer {
+    display; flex;
+    position:fixed;
+    width: 100%;
+    bottom:0;
+    left:0;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
 }
