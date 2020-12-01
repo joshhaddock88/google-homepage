@@ -1,5 +1,5 @@
 html {
-    font-size: 15px;
+    font-size: 12px;
     margin: auto;
     text-align: center;
     height: 100%;
@@ -23,7 +23,7 @@ main {
 
 a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     color: rgba(0,0,0,0.75);
 }
 
@@ -60,7 +60,7 @@ a:hover {
 }
 
 #logo {
-    width: 425px;
+    width: 20%;
     margin-top: 5%;
 }
 
@@ -85,7 +85,7 @@ button {
     margin-right: 5px;
     padding: 15px;
     font-family: arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #3c4043;
     border-style: hidden;
     border-radius: 5px;
@@ -98,7 +98,7 @@ button:hover {
 }
 
 #google-menu-icon {
-    width: 3%;
+    width: 2%;
     opacity: 65%;
 }
 
@@ -107,7 +107,7 @@ button:hover {
 }
 
 #gmail-profile {
-    width: 6%;
+    width: 5%;
     border-radius: 50%;
 }
 
@@ -137,5 +137,5 @@ button:hover {
 }
 #leaf-image{
     padding-right: 10px;
-    width: 15px;
+    width: 15spx;
 }
